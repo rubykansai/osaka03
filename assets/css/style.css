@@ -20,6 +20,10 @@ body {
   padding: 13vw;
   color: #ffffff;
   background-color: #f50808;
+  background-image: url("../images/logo_half.svg");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 #about h1 {
