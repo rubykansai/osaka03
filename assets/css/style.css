@@ -24,8 +24,8 @@ body {
 /* about */
 #about {
   padding: 13vw;
-  color: #ffffff;
-  background-color: #f50808;
+  color: #efefef;
+  background-color: #e50808;
   background-image: url("../images/logo_half.svg");
   background-size: 20%;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
   margin: 0 0 0 auto;
   width: calc(332 / 1440 * 100vw);
   height: calc(100 / 1440 * 100vw);
-  background: #ffffff;
+  background: #efefef;
   border-radius: 50px;
   text-align: center;
   display: grid;
@@ -68,7 +68,7 @@ body {
 
 #round-button a {
   text-decoration-line: none;
-  color: #f50808;
+  color: #e50808;
   font-size: calc(42 / 1440 * 100vw);
   line-height: calc(57 / 1440 * 100vw);
   font-weight: 700;
@@ -83,7 +83,7 @@ body {
 }
 
 #sponsor h2 {
-  color: #f50808;
+  color: #e50808;
   font-size: calc(42 / 1440 * 100vw);
 }
 
@@ -108,7 +108,6 @@ body {
   height: 0;
   position: relative;
   padding-top: 50%;
-  background-color: aqua;
 }
 
 #access #map #googlemaps {
@@ -127,7 +126,7 @@ body {
 }
 
 #footer p {
-  color: #ffffff;
+  color: #efefef;
   font-size: calc(24 / 1440 * 100vw);
   font-weight: 100;
 }
