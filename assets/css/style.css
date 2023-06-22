@@ -7,12 +7,18 @@ body {
 }
 
 #header-image {
-  width: 100vw;
-  height: 100vw;
-  background-image: url("../images/artboard.png");
-  background-blend-mode: darken;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#header-image img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
 }
 
 /* about */
