@@ -87,6 +87,18 @@ body {
   font-size: calc(42 / 1440 * 100vw);
 }
 
+/* member */
+#member {
+  padding: 13vw;
+  color: #111111;
+  text-align: center;
+}
+
+#member h2 {
+  color: #e50808;
+  font-size: calc(42 / 1440 * 100vw);
+}
+
 /* Access */
 #access {
   padding: 13vw;

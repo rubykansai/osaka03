@@ -1,0 +1,35 @@
+.member-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member-card {
+  max-width: 380px;
+  color: inherit;
+  display: block;
+  border-radius: 16px;
+  flex-basis: calc(20% - 20px);
+  margin: 25px 10px;
+  height: auto;
+}
+
+.member-logo {
+  border-radius: 50%;
+}
+
+.member-name {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  margin-top: 10px;
+}
+
+/* for mobile */
+@media (max-width: 1280px) {
+  .member-logo {
+    height: 128px;
+    width: 128px;
+  }
+}
