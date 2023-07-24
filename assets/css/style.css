@@ -74,6 +74,19 @@ body {
   font-weight: 700;
 }
 
+/* guest-speaker */
+#guest-speaker {
+  padding: 13vw;
+  color: #111111;
+  text-align: center;
+}
+
+#guest-speaker h2 {
+  color: #e50808;
+  font-size: calc(42 / 1440 * 100vw);
+}
+
+
 /* sponsor */
 #sponsor {
   padding: 13vw;
