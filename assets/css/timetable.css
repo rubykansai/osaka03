@@ -1,0 +1,116 @@
+ul.timetable {
+  border-left: 0.3rem solid #f50808;
+  padding-inline-start: 0px;
+}
+
+.timetable-event-item {
+  display:flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.timetable-session-item {
+  display:flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.timetable-timebox {
+  font-size: 34px;
+  font-weight: 300;
+  margin-right: 50px;
+}
+
+.timetable-event-item .timetable-timebox {
+  background: url(../images/event-pin.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 80px;
+}
+
+.timetable-session-item .timetable-timebox {
+  background: url(../images/session-pin.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 80px;
+}
+
+.timetable-evnet {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.timetable-session {
+  position:relative;
+  min-width:400px;
+  min-height:50px;
+  background:#F50808;
+  padding:30px;
+  text-align:left;
+  border-radius:16px;
+}
+
+.timetable-session-title {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.timetable-session-speaker {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 35px;
+}
+
+/* for PC */
+@media (min-width: 1280px) {
+  .timetable-session::after {
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    border-color: rgba(245, 8, 8, 0);
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-left-width:30px;
+    border-right-width:30px;
+    margin-top: -10px;
+    border-right-color:#F50808;
+    right:100%;
+    top:50%;
+  }
+}
+
+/* for mobile */
+@media (max-width: 1280px) {
+  .timetable-session-item {
+    flex-wrap: wrap;
+  }
+
+  .timetable-evnet {
+    font-size: 25px;
+  }
+
+  .timetable-timebox {
+    font-size: 24px;
+  }
+
+  .timetable-session-title {
+    font-size: 20px;
+  }
+
+  .timetable-session-speaker {
+    font-size: 18px;
+  }
+
+  .timetable-session {
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width:380px;
+    min-height:30px;
+    padding:15px;
+  }
+}

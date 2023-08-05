@@ -20,6 +20,12 @@
     />
     <link
       rel="preload"
+      href="assets/css/timetable.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
       href="assets/css/sponsor.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
@@ -31,6 +37,7 @@
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript>
+      <link rel="stylesheet" href="assets/css/timetable.css" />
       <link rel="stylesheet" href="assets/css/sponsor.css" />
       <link rel="stylesheet" href="assets/css/member.css" />
     </noscript>
@@ -60,7 +67,7 @@
         <a href="https://rubykansai.doorkeeper.jp/events/158794">申し込む</a>
       </div>
     </section>
-    
+
     <section id="guest-speaker">
       <h2>Guest Speaker</h2>
       <div class="guest-speaker-list">
@@ -90,7 +97,195 @@
           <p class="guest-speaker-name">Junichi Ito</p>
         </div>
       </div>
+    </section>
 
+    <section id="timetable">
+      <h2>Timetable</h2>
+      <ul class="timetable">
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">09:00</div>
+          <div class="timetable-evnet">Door Open</div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">10:00</div>
+          <div class="timetable-evnet">Opening</div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">10:10</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">基調講演</div>
+            <div class="timetable-session-speaker">Junichi Ito</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">10:55</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">招待講演</div>
+            <div class="timetable-session-speaker">Yukihiro "Matz" Matsumoto</div>
+          </div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">11:40</div>
+          <div class="timetable-evnet">Photography</div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">11:50</div>
+          <div class="timetable-evnet">Lunch Break</div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">13:00</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Lrama へのコントリビューションを通して学ぶ Ruby のパーサジェネレータ事情</div>
+            <div class="timetable-session-speaker">Junichi Kobayashi</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">13:30</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">13:35</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">13:40</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">複数の言語で同じWebサービスを実装して技術特性の違いを見てみた</div>
+            <div class="timetable-session-speaker">Takafumi ONAKA</div>
+          </div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">14:10</div>
+          <div class="timetable-evnet">Break</div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">14:30</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Breaking the Flaky Test Cycle</div>
+            <div class="timetable-session-speaker">willnet</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">14:40</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">PicoRuby から始める たのしい電子工作</div>
+            <div class="timetable-session-speaker">Ogomori Takashi</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">14:50</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">14:55</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">15:00</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Rubyではじめるクリエイティブコーディング</div>
+            <div class="timetable-session-speaker">小芝美由紀</div>
+          </div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">15:30</div>
+          <div class="timetable-evnet">Break</div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">15:50</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">A Practitioner's Journey from Ruby 1.8 Era to Present</div>
+            <div class="timetable-session-speaker">Koichi ITO</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">16:00</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">neovimで作る最新ruby開発環境2023</div>
+            <div class="timetable-session-speaker">Tomohiro Hashidate</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">16:10</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">16:15</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">16:20</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">ブラウザから「今すぐ」gemをロードする方法</div>
+            <div class="timetable-session-speaker">lni_T / ルニ</div>
+          </div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">16:50</div>
+          <div class="timetable-evnet">Break</div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">17:10</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Reboot of one of the Ruby Community</div>
+            <div class="timetable-session-speaker">luccafort</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">17:20</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Building Tebukuro with Hotwire and Rails</div>
+            <div class="timetable-session-speaker">むらじゅん</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">17:30</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Sponsors LT</div>
+          </div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">17:35</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">技術書典で Rails の本を出す技術</div>
+            <div class="timetable-session-speaker">Hayao Kimura</div>
+          </div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">18:05</div>
+          <div class="timetable-evnet">Closing</div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">18:15</div>
+          <div class="timetable-evnet">Break</div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">19:30</div>
+          <div class="timetable-evnet">Part2 Opening</div>
+        </li>
+        <li class="timetable-session-item">
+          <div class="timetable-timebox">19:40</div>
+          <div class="timetable-session">
+            <div class="timetable-session-title">Lightning Talks</div>
+          </div>
+        </li>
+        <li class="timetable-event-item">
+          <div class="timetable-timebox">20:50</div>
+          <div class="timetable-evnet">Part2 Closing</div>
+        </li>
+      </ul>
     </section>
 
     <section id="sponsor">
