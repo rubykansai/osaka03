@@ -83,9 +83,20 @@ body {
 
 #guest-speaker h2 {
   color: #e50808;
-  font-size: calc(42 / 1440 * 100vw);
+  font-size: calc(62 / 1440 * 100vw);
 }
 
+/* timetable */
+#timetable {
+  padding: 13vw;
+  color: #111111;
+  text-align: left;
+}
+
+#timetable h2 {
+  color: #F50808;
+  font-size: calc(62 / 1440 * 100vw);
+}
 
 /* sponsor */
 #sponsor {
@@ -97,7 +108,7 @@ body {
 
 #sponsor h2 {
   color: #e50808;
-  font-size: calc(42 / 1440 * 100vw);
+  font-size: calc(62 / 1440 * 100vw);
 }
 
 /* member */
@@ -109,7 +120,7 @@ body {
 
 #member h2 {
   color: #e50808;
-  font-size: calc(42 / 1440 * 100vw);
+  font-size: calc(62 / 1440 * 100vw);
 }
 
 /* Access */
@@ -120,7 +131,7 @@ body {
 
 #access h2 {
   color: #292929;
-  font-size: calc(42 / 1440 * 100vw);
+  font-size: calc(62 / 1440 * 100vw);
 }
 
 #access p {
