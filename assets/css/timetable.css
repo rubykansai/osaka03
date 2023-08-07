@@ -42,7 +42,7 @@ ul.timetable {
 
 .timetable-session {
   position:relative;
-  min-width:400px;
+  min-width:80%;
   min-height:50px;
   background:#F50808;
   padding:30px;
@@ -91,11 +91,11 @@ ul.timetable {
   }
 
   .timetable-evnet {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .timetable-timebox {
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .timetable-session-title {
@@ -109,7 +109,7 @@ ul.timetable {
   .timetable-session {
     margin-left: 10px;
     margin-right: 10px;
-    min-width:380px;
+    min-width:100%;
     min-height:30px;
     padding:15px;
   }
