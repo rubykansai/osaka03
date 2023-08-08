@@ -59,8 +59,11 @@ body {
   text-align: center;
 }
 
-.button {
-  margin: 0 0 2rem auto;
+.round-button {
+  margin: 0 0 4rem auto;
+  width: calc(332 / 1440 * 100vw);
+  height: calc(100 / 1440 * 100vw);
+  border-radius: 50px;
   background: #efefef;
   display: grid;
   place-items: center;
@@ -73,20 +76,19 @@ body {
   border: 2px solid #efefef;
 }
 
-.button:hover {
+@media (max-width: 1280px) {
+  .round-button {
+    margin: 0 0 2rem auto;
+  }
+}
+
+.round-button:hover {
   background: #e50808;
   color: #efefef;
 }
 
-.round-button {
-  width: calc(332 / 1440 * 100vw);
-  height: calc(100 / 1440 * 100vw);
-  border-radius: 50px;
-}
-
-.square-button {
+.proposal-button {
   width: 100%;
-  height: calc(100 / 1440 * 100vw);
 }
 
 /* guest-speaker */
