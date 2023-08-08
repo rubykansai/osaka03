@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "extends": [
+    "stylelint-prettier/recommended",
+    "stylelint-config-recess-order"
+  ],
+  "ignoreFiles": [
+    "node_modules/**/*"
+  ]
+}
