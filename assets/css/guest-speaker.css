@@ -5,13 +5,13 @@
 }
 
 .guest-speaker-card {
-  max-width: 380px;
-  color: inherit;
   display: block;
-  border-radius: 16px;
   flex-basis: calc(20% - 20px);
-  margin: 25px 10px;
+  max-width: 380px;
   height: auto;
+  margin: 25px 10px;
+  color: inherit;
+  border-radius: 16px;
 }
 
 .guest-speaker-logo {
@@ -19,19 +19,17 @@
 }
 
 .guest-speaker-name {
+  margin-top: 10px;
   font-size: 22px;
   font-weight: 300;
   line-height: 33px;
   letter-spacing: 0em;
-  margin-top: 10px;
 }
 
 /* for mobile */
 @media (max-width: 1280px) {
   .guest-speaker-logo {
-    height: 192px;
     width: 192px;
+    height: 192px;
   }
 }
-
-
