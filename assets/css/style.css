@@ -55,23 +55,32 @@ body {
   line-height: calc(64 / 1440 * 100vw);
 }
 
-#round-button {
-  margin: 0 0 0 auto;
-  width: calc(332 / 1440 * 100vw);
-  height: calc(100 / 1440 * 100vw);
-  background: #efefef;
-  border-radius: 50px;
+.center {
   text-align: center;
-  display: grid;
-  place-items: center;
 }
 
-#round-button a {
+.button {
+  margin: 3rem 0 0 auto;
+  background: #efefef;
+  display: grid;
+  place-items: center;
   text-decoration-line: none;
   color: #e50808;
   font-size: calc(42 / 1440 * 100vw);
   line-height: calc(57 / 1440 * 100vw);
   font-weight: 700;
+}
+
+.round-button {
+  width: calc(332 / 1440 * 100vw);
+  height: calc(100 / 1440 * 100vw);
+  border-radius: 50px;
+}
+
+.square-button {
+  margin: 3rem 0 0 auto;
+  width: 100%;
+  height: calc(100 / 1440 * 100vw);
 }
 
 /* guest-speaker */
