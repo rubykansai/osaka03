@@ -1,4 +1,5 @@
 {
+  "name": "osaka03",
   "devDependencies": {
     "prettier": "3.0.1",
     "stylelint": "^15.10.2",
