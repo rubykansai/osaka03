@@ -55,10 +55,6 @@ body {
   line-height: calc(64 / 1440 * 100vw);
 }
 
-.center {
-  text-align: center;
-}
-
 .round-button {
   display: grid;
   place-items: center;
@@ -85,10 +81,6 @@ body {
 .round-button:hover {
   color: #efefef;
   background: #e50808;
-}
-
-.proposal-button {
-  width: 100%;
 }
 
 /* guest-speaker */
