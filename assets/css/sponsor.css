@@ -3,6 +3,7 @@
   flex-basis: calc(33.33% - 20px);
   max-width: 380px;
   height: auto;
+  min-height: 544px;
   margin: 10px;
   color: inherit;
   text-align: left;
