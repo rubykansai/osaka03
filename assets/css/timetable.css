@@ -69,6 +69,11 @@ ul.timetable {
   color: #ffffff;
 }
 
+.timetable-session-speaker img {
+  width: 28px;
+  vertical-align: baseline;
+}
+
 /* for PC */
 @media (min-width: 1280px) {
   .timetable-session::after {
