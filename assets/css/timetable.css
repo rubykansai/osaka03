@@ -1,3 +1,9 @@
+/* timetable */
+
+.timetable {
+  text-align: left;
+}
+
 ul.timetable {
   padding-inline-start: 0px;
   border-left: 0.3rem solid #f50808;

@@ -1,0 +1,17 @@
+/* footer */
+
+.footer {
+  padding: 5.5vw;
+  text-align: center;
+  background-color: #292929;
+}
+
+.footer p {
+  font-weight: 100;
+  color: #efefef;
+}
+
+.footer img {
+  width: 3rem;
+  margin: 2rem 1rem;
+}

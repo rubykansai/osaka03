@@ -1,3 +1,11 @@
+/* guest-speaker */
+
+section.guest-speaker {
+  padding: 10vw;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
 .guest-speaker-list {
   display: flex;
   flex-wrap: wrap;
