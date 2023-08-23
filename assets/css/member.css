@@ -1,3 +1,10 @@
+/* member */
+
+.member {
+  padding: 8vw;
+  text-align: center;
+}
+
 .member-list {
   display: flex;
   flex-wrap: wrap;

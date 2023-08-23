@@ -1,0 +1,101 @@
+/* about */
+.about {
+  padding: 7vw;
+  color: #efefef;
+  background-color: #e50808;
+  background-image: url('../images/logo_half.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 15%;
+}
+
+.round-button {
+  display: grid;
+  place-items: center;
+  margin: 0 2rem 0 auto;
+  font-weight: 700;
+  color: #e50808;
+  text-decoration-line: none;
+  background: #efefef;
+  border: 2px solid #efefef;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+}
+
+.round-button:hover {
+  color: #efefef;
+  background: #e50808;
+}
+
+@media (min-width: 380px) {
+  .about h1 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  .about h2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .about p {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.6rem;
+    line-height: 1.25rem;
+  }
+
+  .round-button {
+    width: 6.5em;
+    height: 2em;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .about h1 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .about h2 {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .round-button {
+    width: 9.5em;
+    height: 3em;
+    margin: 5rem 5rem 0 auto;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about h1 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+
+  .about h2 {
+    font-size: 2.6666666667rem;
+    line-height: 1.5;
+  }
+
+  .round-button {
+    width: 9.5em;
+    height: 3em;
+    margin: 5rem 0 0 auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .round-button {
+    margin: 5rem auto 0 0;
+  }
+}

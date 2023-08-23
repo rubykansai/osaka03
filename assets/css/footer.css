@@ -1,0 +1,13 @@
+/* footer */
+
+.footer {
+  padding: 5.5vw;
+  text-align: center;
+  background-color: #292929;
+}
+
+.footer p {
+  font-size: calc(24 / 1440 * 100vw);
+  font-weight: 100;
+  color: #efefef;
+}

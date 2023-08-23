@@ -1,0 +1,61 @@
+/* common */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.65;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+
+  h2 {
+    font-size: 2.6666666667rem;
+    line-height: 1.5;
+  }
+}
+
+p {
+  margin: 0 0 1.5em;
+  font-weight: 200;
+  line-height: 2.65;
+}
+
+section {
+  padding: 10vw;
+}
+
+.section-title {
+  color: #e50808;
+}

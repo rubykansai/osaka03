@@ -19,29 +19,23 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@rubykansai" />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="preload"
-      href="assets/css/guest-speaker.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link rel="preload" href="assets/css/timetable.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <link rel="preload" href="assets/css/sponsor.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <link rel="preload" href="assets/css/member.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript>
-      <link rel="stylesheet" href="assets/css/timetable.css" />
-      <link rel="stylesheet" href="assets/css/sponsor.css" />
-      <link rel="stylesheet" href="assets/css/member.css" />
-    </noscript>
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="assets/css/access.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/guest-speaker.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/member.css" />
+    <link rel="stylesheet" href="assets/css/sponsor.css" />
+    <link rel="stylesheet" href="assets/css/timetable.css" />
   </head>
 
   <body>
-    <header id="header-image">
+    <header>
       <img src="assets/images/artboard.svg" width="100%" />
     </header>
 
-    <section id="about">
+    <section class="about">
       <h1>Osaka RubyKaigi 03</h1>
       <h2>"Rubyで笑おう"</h2>
       <p>
@@ -59,39 +53,43 @@
       <a class="round-button" target="_blank" href="https://rubykansai.doorkeeper.jp/events/158794">申し込む</a>
     </section>
 
-    <section id="guest-speaker">
-      <h2>Guest Speaker</h2>
+    <section class="guest-speaker">
+      <h1 class="section-title">Guest Speaker</h1>
       <div class="guest-speaker-list">
         <div class="guest-speaker-card">
-          <img
-            class="guest-speaker-logo"
-            src="https://avatars.githubusercontent.com/u/30733?v=4&s=256"
-            width="192"
-            height="192"
-            loading="lazy"
-            decoding="async"
-            alt="matz"
-          />
+          <a href="https://github.com/matz" target="_blank">
+            <img
+              class="guest-speaker-logo"
+              src="https://avatars.githubusercontent.com/u/30733?v=4&s=256"
+              width="192"
+              height="192"
+              loading="lazy"
+              decoding="async"
+              alt="matz"
+            />
+          </a>
           <p class="guest-speaker-name">Yukihiro "Matz" Matsumoto</p>
         </div>
 
         <div class="guest-speaker-card">
-          <img
-            class="guest-speaker-logo"
-            src="https://avatars.githubusercontent.com/u/1148320?v=4&s=256"
-            width="192"
-            height="192"
-            loading="lazy"
-            decoding="async"
-            alt="JunichiIto"
-          />
+          <a href="https://github.com/JunichiIto" target="_blank">
+            <img
+              class="guest-speaker-logo"
+              src="https://avatars.githubusercontent.com/u/1148320?v=4&s=256"
+              width="192"
+              height="192"
+              loading="lazy"
+              decoding="async"
+              alt="JunichiIto"
+            />
+          </a>
           <p class="guest-speaker-name">Junichi Ito</p>
         </div>
       </div>
     </section>
 
-    <section id="timetable">
-      <h2>Timetable</h2>
+    <section class="timetable">
+      <h1 class="section-title">Timetable</h1>
       <ul class="timetable">
         <li class="timetable-event-item">
           <div class="timetable-timebox">09:00</div>
@@ -281,8 +279,8 @@
       </ul>
     </section>
 
-    <section id="sponsor">
-      <h2>Sponsor</h2>
+    <section class="sponsor">
+      <h1 class="section-title">Sponsor</h1>
       <div class="sponsor-list">
         <a href="https://agileware.jp/careers/" class="sponsor-card" target="_blank" rel="”noopener" noreferrer”>
           <div class="sponsor-logo">
@@ -295,7 +293,7 @@
               alt="株式会社アジャイルウェア"
             />
           </div>
-          <h1 class="sponsor-name">株式会社アジャイルウェア</h1>
+          <h2 class="sponsor-name">株式会社アジャイルウェア</h2>
           <div class="sponsor-description">
             アジャイルウェアは『Feel
             Goodな明日をつくる』をミッションに、自慢できるワークスタイルで、はたらく人を応援するサービスを提供中です！
@@ -316,7 +314,7 @@
               alt="株式会社エイチーム"
             />
           </div>
-          <h1 class="sponsor-name">株式会社エイチーム</h1>
+          <h2 class="sponsor-name">株式会社エイチーム</h2>
           <div class="sponsor-description">
             エイチームは、ゲーム/アプリ・WebサービスやECサービスなど様々なビジネス領域を展開する総合IT企業。 Ruby on
             Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発しております。
@@ -334,7 +332,7 @@
               alt="株式会社インゲージ"
             />
           </div>
-          <h1 class="sponsor-name">株式会社インゲージ</h1>
+          <h2 class="sponsor-name">株式会社インゲージ</h2>
           <div class="sponsor-description">
             インゲージは、「ひとり一人に向き合うをカタチにする」をミッションに顧客対応クラウド『Re:lation（リレーション）』を開発・提供しています。
             2014年の創業以来「使って楽しい」「導入して良かった」を感じていただけるサービスの提供を第一に、日々開発を進めています。
@@ -353,7 +351,7 @@
               alt="株式会社ナレッジラボ"
             />
           </div>
-          <h1 class="sponsor-name">株式会社ナレッジラボ</h1>
+          <h2 class="sponsor-name">株式会社ナレッジラボ</h2>
           <div class="sponsor-description">
             ナレッジラボは経営管理SaaS「Manageboard」をRuby on
             RailsやReact.jsを用いて自社開発している、大阪に本社を置く会社です。
@@ -372,7 +370,7 @@
               alt="株式会社Ruby開発"
             />
           </div>
-          <h1 class="sponsor-name">株式会社Ruby開発</h1>
+          <h2 class="sponsor-name">株式会社Ruby開発</h2>
           <div class="sponsor-description">
             Ruby開発はRuby on
             Railsをコアとして、フロントの技術も積極的にとりいれたWebアプリケーション開発を得意としております。
@@ -391,7 +389,7 @@
               alt="ポノス株式会社"
             />
           </div>
-          <h1 class="sponsor-name">ポノス株式会社</h1>
+          <h2 class="sponsor-name">ポノス株式会社</h2>
           <div class="sponsor-description">
             ポノスは、1990年の創業以来ゲームを通してエンターテインメントという文化の発展に貢献してまいりました。
             【求められるモノは創らない、それ以上を創り出す。】を掲げ、自分たちしか創れない価値をプラスしていくことを大切にしています。
@@ -410,7 +408,7 @@
               alt="リバティ・フィッシュ株式会社"
             />
           </div>
-          <h1 class="sponsor-name">リバティ・フィッシュ株式会社</h1>
+          <h2 class="sponsor-name">リバティ・フィッシュ株式会社</h2>
           <div class="sponsor-description">
             私たちリバティ・フィッシュは、Ruby技術のフロントランナーとして「ひとつ上のオープンソースソフトウェア技術」をモットーに、新しい価値・技術を発信し続けて参りました。
             これからも時代の流れに対応すべく、大手・メーカーに依存しない推進力の向上に注力し、情熱を持った優秀な技術者を育てることにより、技術開発の創造・促進に取り組み、新たなソリューションの実現に取り組んでまいります。
@@ -418,7 +416,7 @@
         </a>
       </div>
 
-      <h2>In Kind Sponsor</h2>
+      <h1 class="section-title">In Kind Sponsor</h1>
       <div class="sponsor-list">
         <a
           href="https://www.instagram.com/bouquetec_com/"
@@ -436,7 +434,7 @@
               alt="BouqueTec株式会社"
             />
           </div>
-          <h1 class="sponsor-name">BouqueTec株式会社</h1>
+          <h2 class="sponsor-name">BouqueTec株式会社</h2>
           <div class="sponsor-description">
             ブーケテックはものづくりを通じて学びや楽しむことを応援します。
             オープンソースソフトウェア（OSS）の開発を支援しています。
@@ -444,7 +442,7 @@
         </a>
       </div>
 
-      <h2>Community Sponsor</h2>
+      <h1 class="section-title">Community Sponsor</h1>
       <div class="sponsor-list">
         <a href="https://ruby-no-kai.org/" class="sponsor-card" target="_blank" rel="noopener noreferrer">
           <div class="sponsor-logo">
@@ -457,7 +455,7 @@
               alt="日本Rubyの会"
             />
           </div>
-          <h1 class="sponsor-name">日本Rubyの会</h1>
+          <h2 class="sponsor-name">日本Rubyの会</h2>
           <div class="sponsor-description">
             Rubyの利用者の支援 Ruby(+Rubyのライブラリ)開発者の支援を目的とした一般社団法人です。
             現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。
@@ -475,7 +473,7 @@
               alt="Ruby関西"
             />
           </div>
-          <h1 class="sponsor-name">Ruby関西</h1>
+          <h2 class="sponsor-name">Ruby関西</h2>
           <div class="sponsor-description">
             Ruby関西はRuby関西
             勉強会や関西Ruby會議、Rails勉強会＠関西など、関西でのRubyに関するイベントの主体となるコミュニティです。
@@ -493,7 +491,7 @@
               alt="Ruby Tuesday"
             />
           </div>
-          <h1 class="sponsor-name">Ruby Tuesday</h1>
+          <h2 class="sponsor-name">Ruby Tuesday</h2>
           <div class="sponsor-description">
             Ruby Tuesday は、毎週火曜日に大阪で開催している もくもく ＆ LT ＆ 🍺会 です。 ストーンズの名曲に Ruby
             が入っているというだけの思いつきで始めました。 Ruby や IT に関係ないことも大歓迎です。
@@ -503,8 +501,8 @@
       </div>
     </section>
 
-    <section id="member">
-      <h2>Member</h2>
+    <section class="member">
+      <h1 class="section-title">Member</h1>
       <div class="member-list">
         <div class="member-card">
           <img
@@ -664,25 +662,25 @@
       </div>
     </section>
 
-    <section id="access">
-      <h2>Access</h2>
+    <section class="access">
+      <h1 class="section-title">Access</h1>
       <p>
         大阪市中央区西心斎橋1-5-24<br />
         ハートンホテル心斎橋別館 松風ホール
       </p>
-      <div id="map">
+      <div class="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.121245590048!2d135.4996786!3d34.6728742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b024e91a15%3A0x24d683b66fcdc17e!2z44OP44O844OI44Oz44Ob44OG44Or5b-D5paO5qmL5Yil6aSo!5e0!3m2!1sja!2sjp!4v1687584547554!5m2!1sja!2sjp"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          id="googlemaps"
+          class="googlemaps"
         ></iframe>
       </div>
     </section>
 
-    <section id="footer">
+    <section class="footer">
       <p>
         Osaka RubyKaigi 03 ©2023<br />
         Design: Onoda Rina
