@@ -7,7 +7,11 @@
 }
 
 .footer p {
-  font-size: calc(24 / 1440 * 100vw);
   font-weight: 100;
   color: #efefef;
+}
+
+.footer img {
+  width: 3rem;
+  margin: 2rem 1rem;
 }
