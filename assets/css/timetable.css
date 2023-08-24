@@ -63,15 +63,25 @@ ul.timetable {
 }
 
 .timetable-session-speaker {
+  display: inline-block;
   margin-top: 35px;
   font-size: 28px;
   font-weight: 400;
   color: #ffffff;
+  vertical-align: middle;
 }
 
-.timetable-session-speaker img {
-  width: 28px;
-  vertical-align: baseline;
+.timetable-session-github img {
+  width: 22px;
+  margin-top: 35px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 1280px) {
+  .timetable-session-speaker img {
+    width: 18px;
+  }
 }
 
 /* for PC */
