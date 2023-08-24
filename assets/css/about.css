@@ -12,7 +12,7 @@
 .round-button {
   display: grid;
   place-items: center;
-  margin: 0 2rem 0 auto;
+  margin: 0 0 0 auto;
   font-weight: 700;
   color: #e50808;
   text-decoration-line: none;
@@ -71,12 +71,17 @@
   .round-button {
     width: 9.5em;
     height: 3em;
-    margin: 5rem 5rem 0 auto;
+    margin: 5rem 0 0 auto;
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
+  .about {
+    padding: 9vw;
+    background-size: 18%;
+  }
+
   .about h1 {
     font-size: 4rem;
     line-height: 5.5rem;
@@ -87,10 +92,16 @@
     line-height: 1.5;
   }
 
+  .about p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
   .round-button {
     width: 9.5em;
     height: 3em;
     margin: 5rem 0 0 auto;
+    font-size: 1.5rem;
   }
 }
 
